@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class Client_interest_calculation
 {
-private static final logger LOGGER=LogManager.getLogger(App.class);
+private static final logger LOGGER=LogManager.getLogger(Client_interest_calculation.class);
 
 public static void main(String args[])
 {
