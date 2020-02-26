@@ -24,7 +24,7 @@ this.total_area_of_house=total_area_of_house;
 
 public void check()
 {
-private static final Logger LOGGER=LogManager.getLogger(App.class);
+private static final Logger LOGGER=LogManager.getLogger(Decide_construction_cost.class);
 Construction_cost_for_standard_material c1=new Construction_cost_for_standard_material(fully_automated_home,cost,material_standard,total_area_of_house);
 Construction_cost_for_abovestandard_material c2=new Construction_cost_for_abovestandard_material(fully_automated_home,cost,material_standard,total_area_of_house);
 Construction_cost_for_highstandard_material c3=new Construction_cost_for_highstandard_material(fully_automated_home,cost,material_standard,total_area_of_house);
