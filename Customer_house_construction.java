@@ -10,7 +10,7 @@ import org.apache.logging.logging4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class Customer_house_construction
 {
-private static final Logger LOGGER=LogManager.getLogger(App.class);
+private static final Logger LOGGER=LogManager.getLogger(Customer_house_construction.class);
 public static void main(String args[])
 {
 
